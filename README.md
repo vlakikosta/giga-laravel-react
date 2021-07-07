@@ -6,8 +6,8 @@ Podesiti .env fajl sa parametrima za bazu<br />
 Pokrenuti compose install<br />
 Pokrenuti npm install<br />
 Pokrenuti <b>php artisan migrate</b> za kreiranje baze. Ako ima neki problem postoji fajl dump_database.sql<br />
-Pokrenuti <b>php artisan serve</b>
-
+Pokrenuti <b>php artisan serve</b><br />
+Pokrenuti <b>npm run watch</b><br />
 
 
 
