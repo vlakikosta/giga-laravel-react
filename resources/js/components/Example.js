@@ -49,13 +49,18 @@ export default class PersonList extends React.Component {
             </div>
         )
         )}
+        </div>
+        <div className="row">
+        <div className="col-md-12 mb-5">
         <Pagination
             activePage={this.state.activePage}
-            itemsCountPerPage={10}
+            itemsCountPerPage={20}
             totalItemsCount={this.state.total}
-            pageRangeDisplayed={5}
+            pageRangeDisplayed={10}
             onChange={this.handlePageChange.bind(this)}
         />
+        </div>
+        
         </div>
     </div>
 
