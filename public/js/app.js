@@ -1991,7 +1991,7 @@ var PersonList = /*#__PURE__*/function (_React$Component) {
       this.setState({
         activePage: pageNumber
       });
-      this.bindData(this.state.activePage);
+      this.bindData(pageNumber);
     }
   }, {
     key: "render",

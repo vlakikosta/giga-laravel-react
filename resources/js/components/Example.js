@@ -29,7 +29,7 @@ export default class PersonList extends React.Component {
 
   handlePageChange(pageNumber) {
     this.setState({activePage: pageNumber});
-    this.bindData(this.state.activePage);
+    this.bindData(pageNumber);
   }
 
   render() {
